@@ -25,7 +25,17 @@
 	  
         document.write("<p> El primer articulo es <strong>");
           document.write(articulos[0] + "</strong></p>"); 
-		alert(articulos.length);//escribe cuantos elementos hay dentro del array
+          alert(articulos.length);//escribe cuantos elementos hay dentro del array
+          document.write("<p> El ultimo elemento es: <strong>");
+            document.write(articulos[articulos.length-1]+"</strong></p>");//para mostrar el ultimo elemento del array
+            articulos.unshift("balón")
+            
+            document.write("<p> Casi nos olvidamos de este elemento: <strong>");
+
+            document.write(articulos[0] + "</strong></p>"); 
+            document.write("<p> agregamos un elemento al final : <strong>");
+            articulos.push(prompt("introduce el articulo: "));//aqui el usuario ingresa un elemento al array
+            document.write(articulos[articulos.length-1]+"</strong></p>");
 		
 			
 	  </script>
