@@ -1,4 +1,7 @@
-/* esta es una prueba de una calculadora, no es una calculadora real y solo se programa los botonoes de suma y resta junto con el de resultado.no tiene aun programado el boton de multiplicar ni dividir. se realizará posteriormente*/
+/* esta es una prueba de una calculadora, no es una calculadora real 
+y solo se programa los botonoes de suma y resta junto con el de resultado.
+no tiene aun programado el boton de multiplicar ni dividir. 
+esto es un ejecicio para conocer mas de JavaScript*/
 
 var cifra = ""; //sirve para acumular los digitos del numero
 var acumulado = 0; // para la suma
